@@ -392,7 +392,6 @@ header {
 
 input[type=text] {
 	padding-left: 20px;
-	padding-top: 2px;
 }
 
 .home-email {
@@ -453,10 +452,14 @@ input[type=text] {
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 18px;
-
 	/* identical to box height */
 
 	color: #eaeaea;
+}
+
+.home-message {
+	padding-left: 20px;
+	padding-top: 10px;
 }
 
 .home-message-contact {
@@ -465,4 +468,121 @@ input[type=text] {
 	height: 47px;
 	left: 638px;
 	top: 4490px;
+}
+
+.footer {
+	position: absolute;
+	width: 1440px;
+	height: 468px;
+	left: 0px;
+	top: 4602px;
+
+	background: #141618;
+}
+
+.footer-h1 {
+	position: absolute;
+	width: 394px;
+	height: 41px;
+	left: 159px;
+	top: 72px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 41px;
+
+	/* identical to box height */
+
+	color: #ffffff;
+}
+
+.explore {
+	position: absolute;
+	width: 68px;
+	height: 23px;
+	left: 159px;
+	top: 258px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #ffffff;
+}
+
+.privacy {
+	position: absolute;
+	width: 67px;
+	height: 23px;
+	left: 553px;
+	top: 258px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #ffffff;
+}
+
+.contact {
+	position: absolute;
+	width: 71px;
+	height: 23px;
+	left: 959px;
+	top: 258px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+
+	color: #ffffff;
+}
+
+.sign-up {
+	position: absolute;
+	width: 119px;
+	height: 46px;
+	left: 1121px;
+	top: 68px;
+
+	background: #6442ff;
+	border-radius: 30px;
+}
+
+.email-input {
+	position: absolute;
+	width: 419px;
+	height: 39px;
+	left: 684px;
+	top: 72px;
+	border: 0;
+	outline: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: #ffffff;
+	border-bottom: 2px solid #6442ff;
+
+	background: #141618;
+}
+
+.footer-line {
+	position: absolute;
+	width: 1084.99px;
+	height: 4.71px;
+	left: 155.02px;
+	top: 190.79px;
+
+	border: 0;
+	height: 1px;
+	background: #333;
 }

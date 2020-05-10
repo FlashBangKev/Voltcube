@@ -38,7 +38,7 @@
     <header class="section1-head">
        <h1 class="section1-h1">Do You Need A Professional Web Designer?</h1>
        <p class="section1-p">Current and potential customers want to view your website. Using social media and business listings alone isn’t enough to portray what your brand is all about. We build websites for businesses like yours and make sure that potential customers can find your website on Google.</p>
-       <img class="section1-img" src="img/web design.png" alt="">
+       <img class="section1-img" src="<?php bloginfo('template_directory');?>img/web design.png" alt="">
  </header>
 </section>
 
@@ -95,12 +95,27 @@
         <div class="message-form">
             <textarea placeholder="Message" class="home-message" required></textarea>
         </div>
-        </form>
         <button class="home-message-contact" type="submit">Submit</button>
+        </form>
+        
         </section>
 
-
-
+<footer class="footer">
+    <header class="footer-header">
+        <h1 class="footer-h1">Sign up to our newsletter</h1>
+        <div class="email-list">
+            <input placeholder="Your Email" class="email-input" required>
+            <button class="sign-up">Sign Up</button>
+            <hr class="footer-line">
+        </div>
         
-</body>
+            <div>
+            <h3 class="explore">Explore</h3>
+            <h3 class="privacy">Privacy</h3>
+            <h3 class="contact">Contact</h3>
+
+        </div>
+    </header>
+</footer>
+    </body>
 </html>
